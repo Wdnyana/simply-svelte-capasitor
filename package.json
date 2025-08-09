@@ -17,6 +17,7 @@
 		"@capacitor/cli": "^7.4.2",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
+		"@sveltejs/adapter-static": "^3.0.9",
 		"@sveltejs/adapter-vercel": "^5.6.3",
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
@@ -35,7 +36,9 @@
 	"dependencies": {
 		"@capacitor/android": "^7.4.2",
 		"@capacitor/core": "^7.4.2",
+		"@capacitor/haptics": "^7.0.2",
 		"@capacitor/ios": "^7.4.2",
+		"@capacitor/motion": "^7.0.1",
 		"@tailwindcss/vite": "^4.1.11",
 		"tailwindcss": "^4.1.11"
 	}
