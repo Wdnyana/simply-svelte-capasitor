@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">simply-svelte-capasitor</string>
+    <string name="title_activity_main">simply-svelte-capasitor</string>
+    <string name="package_name">com.soundboarder.app</string>
+    <string name="custom_url_scheme">com.soundboarder.app</string>
+</resources>

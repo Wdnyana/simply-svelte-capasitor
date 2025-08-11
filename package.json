@@ -11,7 +11,10 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"cap:sync": "npm run build && npx cap sync",
+		"android:open": "CAPACITOR_ANDROID_STUDIO_PATH='/snap/bin/android-studio' npx cap open android",
+		"android:run": "CAPACITOR_ANDROID_STUDIO_PATH='/snap/bin/android-studio' npx cap run android"
 	},
 	"devDependencies": {
 		"@capacitor/cli": "^7.4.2",

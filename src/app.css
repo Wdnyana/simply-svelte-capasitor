@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Google+Sans+Code&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
+	--font-heading: 'Anton', sans-serif;
+	--font-body: 'Google Sans Code', monospace;
+
+	--font-sans: var(--font-body);
+
 	--color-card: #edeeeb;
+}
+
+@layer base {
+	* {
+		box-sizing: border-box;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply font-body tracking-wider;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	h1 {
+		@apply tracking-wider text-balance capitalize text-3xl md:text-4xl lg:text-5xl;
+	}
+
+	p {
+		@apply text-sm leading-relaxed md:text-[16px];
+	}
 }
